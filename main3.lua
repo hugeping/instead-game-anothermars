@@ -1900,7 +1900,7 @@ local titles = {
 	{ };
 	{"Музыка:", style = 2},
 	{"Александр Соборов // Sun flower"},
-	{"Daniel Birch // So Far Away"},
+	{"Daniel Britch // So Far Away"},
 	{"Daniel Britch // Forgotten Landscape"},
 	{"Daniel Britch // Music Box and Chill"},
 	{ };

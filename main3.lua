@@ -1,9 +1,9 @@
 --$Name:Другой Марс$
 --$Author:Пётр Косых$
 --$Info:июль 2018$
---$Version:1.8$
+--$Version:1.9$
 
-local gfx_mode = std.ref'@sprite'.scr()
+local gfx_mode = not instead.tiny -- std.ref'@sprite'.scr()
 
 require "parser/mp-ru"
 require "fmt"
@@ -1937,7 +1937,9 @@ room {
 		for _, v in ipairs(titles) do
 			pn(fmt.c(v[1]))
 		end
-		pn (fmt.c"^Полную версию игры ищите на https://instead.itch.io/mars")
+		if instead.reinstead then
+			pn (fmt.c"^Полную версию игры ищите на https://instead.itch.io/mars")
+		end
 	end;
 	noparser = true;
 	{

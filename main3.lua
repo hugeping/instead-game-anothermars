@@ -1,7 +1,7 @@
 --$Name:Другой Марс$
 --$Author:Пётр Косых$
 --$Info:июль 2018$
---$Version:1.9$
+--$Version:1.9.1$
 
 local gfx_mode = not instead.tiny -- std.ref'@sprite'.scr()
 
